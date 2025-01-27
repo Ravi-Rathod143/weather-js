@@ -58,6 +58,7 @@ const apiKey = "b2fa3271ab55c9c76e1b2a2d1afd0478";  // My provided API key
       const extendedForecast = document.getElementById('extendedForecast');
       extendedForecast.innerHTML = `
         <h2 class="mb-5 text-xl font-semibold">5-Day Forecast</h2>
+        
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 ">
           ${forecastData.map(day => `
             <div class="p-4 rounded-lg   shadow-md hover:shadow-lg hover:bg-blue-100">
