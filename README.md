@@ -13,7 +13,7 @@ Five-Day Forecast: View extended weather data for the next five days.
 Search History: Previously searched cities are saved in a dropdown list. Click on a city in the history to view its weather data.
 # Technologies Used
 HTML
-CSS (Tailwind CSS)
+CSS (Tailwind CSS) and few simple css (style.css)
 JavaScript
 Setup Instructions
 # Prerequisites
