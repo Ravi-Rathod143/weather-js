@@ -25,11 +25,13 @@ const apiKey = "b2fa3271ab55c9c76e1b2a2d1afd0478";  // My provided API key
     function displayWeatherData(data) {
       const weatherData = document.getElementById('weatherData');
       weatherData.innerHTML = `
+      <div class="bg-amber-300">
         <p class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-800 to-pink-500">Weather in ${data.name}, ${data.sys.country}</p>
         <p>Temperature: ${data.main.temp}°C</p>
         <p>Humidity: ${data.main.humidity}%</p>
         <p>Wind Speed: ${data.wind.speed} m/s</p>
         <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}.png" alt="weather icon">
+        </div>
       `;
        // Fetch the extended 5-day forecast for the city
       getExtendedForecast(data.name);
