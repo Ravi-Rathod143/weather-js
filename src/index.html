@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+      name="description"
+      content="Get accurate real-time weather updates for cities from all over the world. Check current weather conditions, 
+      forecasts, and more on our weather app."
+    />
+    <meta
+      name="keywords"
+      content="weather, forecast, cities, temperature, humidity, rainfall,wind"
+    />
+    <link rel="icon" type="image/x-icon" href="/assets/weather.jpg">
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather Forecast Application</title>
+
+</head>
+<body class="bg-gradient-to-r from-pink-300 via-purple-200 to-indigo-200">
+
+  <h1 class="heading  text-3xl font-bold text-center  mb-10 text-pink-900">Weather</h1>
+  <div class="container mx-auto p-1">
+    
+    <!-- City Search Input -->
+    <div class="mt-4 flex justify-center">
+      <input type="text" id="cityInput" placeholder="Enter City" class="search w-2/4 p-3  border rounded-3xl">
+    </div>
+    
+    <!-- Search Button -->
+    <div class="mt-4 flex justify-center">
+      <button id="searchBtn" class="w-1/4 p-2 text-xl bg-blue-500 text-white rounded-xl font-semibold hover:bg-red-600  transition duration-300">Search</button>
+    </div>
+    
+   
+    <!-- Current Location Button -->
+    <div class="mt-2 flex justify-center">
+      <button id="currentLocationBtn" class="w-1/4 p-1 text-xl  mt-4 bg-green-600 text-white rounded-3xl hover:bg-gray-600 transition duration-300">Use Current Location</button>
+    </div>
+
+    <!-- Recently Searched Cities Dropdown -->
+
+    <div id="recentCitiesDropdown" class="recent mt-10 mb-10 text-center flex justify-center"></div>
+  </div>
+
+  
+
+    <!-- Display Weather Data -->
+    <div id="weatherData" class="mt-4 text-center shadow-lg rounded-xl"></div>
+    
+    <!-- Display Extended Forecast -->
+    <div id="extendedForecast" class="mt-10 mb-20 text-center shadow-lg"></div>
+    
+<script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
