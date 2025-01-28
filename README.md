@@ -1,4 +1,4 @@
-# weather-js===>   https://incredible-trifle-347a9b.netlify.app/
+# weather-js ==> incredible-trifle-347a9b.netlify.app/
 # Overview
 This is a simple weather forecast application built using HTML, CSS (Tailwind CSS), and JavaScript. The application allows users to:
 
