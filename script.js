@@ -158,6 +158,7 @@ const apiKey = "b2fa3271ab55c9c76e1b2a2d1afd0478";  // My provided API key
         if (validateCity(city)) {
           getWeatherData(city);
         }
+        
       }
     });
 
